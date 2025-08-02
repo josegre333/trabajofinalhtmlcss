@@ -1,0 +1,60 @@
+<head>
+  <title>Reformas Company - Presupuesto</title>
+<link rel="stylesheet" href="../css/estilos.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="../images/image1.jpg" alt="Logo Empresa" class="logo">
+      <ul>
+        <li><a href="../index.html" >Inicio</a></li>
+        <li><a href="../views/productos.html">Productos</a></li>
+        <li><a href="../views/presupuesto.html" class="activo ">presupuesto</a></li>
+        <li><a href="../views/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+
+    <h1>Solicita tu Presupuesto</h1>
+    <form id="formPresupuesto" class="formulario">
+      <label for="name">Nombre:
+        <input type="text" name="nombre" id="name" class="input-text" required>
+      </label>
+      <label for="email">Email:
+        <input type="email" name="email" id="email" class="input-text" required>
+      </label>
+      <label for="telefono">Teléfono:
+        <input type="tel" name="telefono" id="telefono" class="input-text" required>
+      </label>
+      <label for="mensaje">Solicite más información:
+        <textarea name="mensaje" id="mensaje" class="textarea" required></textarea>
+      </label>
+      <label class="checkbox">
+        <input type="checkbox" name="privacidad" id="privacidad" required>
+        Acepto la política de privacidad
+      </label>
+      <div class="botones">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="reset" class="btn btn-secondary">Limpiar</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <p>Dirección: Calle Rioja 31</p>
+    <p><a href="#"
+        onclick="alert('Somos una Empresa que recide en España desde el 2014, nuestro trabajos con 100% garantizados.'); return false;">Aviso
+        legal</a></p>
+
+    <div class="redes">
+      <a href="#"><img src="../images/Insta.jpg" alt="Instagram" class="insta"></a>
+      <a href="#"><img src="../images/face.png " alt="Facebook" class="face" ></a>
+    </div>
+  </footer>
+</body>
+
+</html>
