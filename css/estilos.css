@@ -1,0 +1,271 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a.activo {
+    border-bottom: 2px solid yellow;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  footer {
+    background-color: #eee;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .galeria img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .mapa {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 1rem 0;
+  }
+  .insta {
+    height: 30px;
+    width: 30px;
+  }
+  .face {
+    height: 30px;
+    width: 30px;
+  }
+  .fondo-reformas {
+   
+    padding: 10px;
+    padding: 10px;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    color: white;
+    text-align: left;
+  }
+
+  .fondo-reformas {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px; 
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  /* Presupuesto */
+  h1 {
+    text-align: center;
+    color: #0f0f0f9a;
+    margin-top: 20px;
+  }
+  
+  .formulario {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .input-text,
+  .textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .textarea {
+    height: 100px;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .checkbox input {
+    margin-right: 10px;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+
+ /* Productos */
+body, html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #444;
+  padding: 10px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a.activo {
+  background-color: #f9c400;
+  color: black;
+  border-radius: 4px;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+/* Galería en rejilla */
+.rejilla {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+.rejilla img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+}
+
+/* Formulario */
+.formulario {
+  padding: 20px;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer pegado abajo */
+footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.redes img {
+  margin: 0 10px;
+  vertical-align: middle;
+}

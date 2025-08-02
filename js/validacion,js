@@ -1,0 +1,10 @@
+
+document.getElementById('formPresupuesto').addEventListener('submit', function(event) {
+    if (!this.checkValidity()) {
+      alert('Por favor, complete todos los campos correctamente y acepte la política de privacidad.');
+      event.preventDefault();
+    }
+
+  });
+
+
